@@ -25,20 +25,27 @@ const solanaMetadata = {
 const layerConfigurations = [
   {
     //Ecualands-Test
-    growEditionSizeTo: 333,
+    growEditionSizeTo: 30,
     layersOrder: [
       { name: "backgrounds" },
-      { name: "blocks" },
+      { name: "shoes" },
       // { name: "outline" },
-      { name: "top-left" },
-      { name: "top-right" },
-      { name: "bottom-left" },
-      { name: "bottom-right" },
-     
+      
     ],
-  }
-  
-  
+  },
+  // {
+  //   //Ecualands-Test
+  //   growEditionSizeTo: 60,
+  //   layersOrder: [
+  //     { name: "blocks" },
+  //     // { name: "outline" },
+  //     { name: "top-left" },
+  //     { name: "top-right" },
+  //     { name: "bottom-left" },
+  //     { name: "bottom-right" },
+     
+  //   ],
+  // },
 ];
 
 const shuffleLayerConfigurations = false;
@@ -76,7 +83,7 @@ const pixelFormat = {
 };
 
 const background = {
-  generate: true,
+  generate: false,
   brightness: "80%",
   static: false,
   default: "#000000",
